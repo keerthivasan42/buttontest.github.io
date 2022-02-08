@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html>	
+	<head>
+		<title>This is a test page </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<script>
+			function change1()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://i.pinimg.com/originals/c8/41/9b/c8419bc328f95517200446ab7a6fe035.jpg" width="1200">';
+			}
+			
+			function change2()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://i.ytimg.com/vi/-y5wnV5IBaA/maxresdefault.jpg" width="1200">';
+			}
+
+			function change3()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://www.teahub.io/photos/full/67-675519_doctor-strange-4k-doctor-strange-wallpaper-hd.jpg" width="1200">';
+			}
+
+
+			function change4()
+			{
+				document.getElementById("changing_image").innerHTML='<img src="https://4kwallpapers.com/images/walls/thumbs_3t/6992.jpg" width="1200">';
+			}
+		</script>
+	</head>
+	<body background="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png" align="center">
+
+		<a onclick="change1()"><button>Iron Man</button></a>
+		<a onclick="change2()"><button>Thor</button></a>
+    	<a onclick="change3()"><button>Doctor Strange</button></a>
+		<a onclick="change4()"><button>Spiderman</button></a>
+		<div id="changing_image"></div>
+	</body>
+</html>
